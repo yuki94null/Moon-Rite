@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "shield",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": [
+                                    {
+                                        "translate": "item.$(moon_sword).name",
+                                        "color": "gold"
+                                    }
+                                ],
+                                "lore": [
+                                    {
+                                        "translate": "item.$().lore",
+                                        "color": "gold"
+                                    }
+                                ],
+                                "item_model": "yrh.013:",
+                                "max_damage": 1024,
+                                "use_effects": {
+                                    "can_sprint": true
+                                },
+                                "consumable": {
+                                    "animation": "brush",
+                                    "consume_seconds": 2147483647,
+                                    "has_consume_particles": false,
+                                    "sound": "intentionally_empty"
+                                },
+                                "custom_data": {
+                                    "yrh.013": "$()",
+                                    "datapack": "yrh.013"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

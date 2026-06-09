@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        " ": {
+            "trigger": "using_item"
+        }
+    },
+    "rewards": {
+        "function": "yrh.013:player/click"
+    }
+}
