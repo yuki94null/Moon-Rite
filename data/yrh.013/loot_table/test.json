@@ -1,0 +1,13 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "functions": [
+                {
+                    "function": "minecraft:copy_components",
+                    "source": ""
+                }
+            ]
+        }
+    ]
+}
