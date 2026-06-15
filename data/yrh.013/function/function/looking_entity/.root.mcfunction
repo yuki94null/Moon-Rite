@@ -12,3 +12,5 @@ scoreboard players set $tmp yrh013.global 40
 ## ループ
 
 function yrh.013:function/looking_entity/loop
+
+tag @s remove yrh013.function.exception
