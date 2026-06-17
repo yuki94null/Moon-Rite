@@ -12,7 +12,7 @@ execute positioned ~0.125 ~0.125 ~0.125 positioned ~-1.0 ~-1.0 ~-1.0 as @n[tag=!
 
 ### 検出したら終わる
 
-execute if entity @e[tag=yrh013.function.looking_entity] run return fail
+# execute if entity @e[tag=yrh013.function.looking_entity] run return fail
 
 ## カウント
 

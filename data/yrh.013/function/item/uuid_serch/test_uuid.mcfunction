@@ -11,7 +11,7 @@ $execute if entity @n[tag=yrh013.uuid.selected] run function $(path)
 ## 居なかったらデータ消す
 
 $execute unless entity @n[tag=yrh013.uuid.selected] run \
-    data remove entity @n[tag=yrh013.item_minecart.tmp] Items[{Slot:0b}].components."minecraft:custom_data".yrh013.data.targets[{UUID:$(UUID)}]
+    data remove entity @n[tag=yrh013.item.tmp] Items[{Slot:0b}].components."minecraft:custom_data".yrh013.data.targets[{UUID:$(UUID)}]
 
 ## タグ外し
 
