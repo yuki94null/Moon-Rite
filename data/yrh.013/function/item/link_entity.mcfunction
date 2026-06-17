@@ -6,10 +6,10 @@ execute anchored eyes positioned ^ ^ ^ run function yrh.013:function/looking_ent
 
 ### 居たら追加・削除・暴行などを加える
 
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",input:{sneak:false}}}} \
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"minecraft:type_specific/player":{input:{sneak:false}}}} \
     if entity @e[tag=yrh013.function.looking_entity] as @e[tag=yrh013.function.looking_entity] run \
         function yrh.013:item/add_uuid with entity @s
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",input:{sneak:true}}}} \
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"minecraft:type_specific/player":{input:{sneak:true}}}} \
     if entity @e[tag=yrh013.function.looking_entity] as @e[tag=yrh013.function.looking_entity] run \
         function yrh.013:item/remove_uuid with entity @s
 

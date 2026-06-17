@@ -20,11 +20,11 @@ item replace entity @n[tag=yrh013.item.tmp] container.0 from entity @s[tag=yrh01
 
 ### 紐づけ
 
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",input:{sprint:false}}}} run function yrh.013:item/link_entity
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"minecraft:type_specific/player":{input:{sprint:false}}}} run function yrh.013:item/link_entity
 
 ### 使う
 
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{type_specific:{type:"player",input:{sprint:true}}}} run function yrh.013:item/ability/.root
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"minecraft:type_specific/player":{input:{sprint:true}}}} run function yrh.013:item/ability/.root
 
 ## 戻す
 

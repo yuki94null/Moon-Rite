@@ -11,7 +11,7 @@ scoreboard objectives add yrh013.use_time dummy
 
 ### value
 
-scoreboard players set $recharge_time yrh013.global 40
+scoreboard players set $recharge_time yrh013.global 100
 
 ## data
 data modify storage yrh.013:global items append value {type:item,id:"moon_sword"}
