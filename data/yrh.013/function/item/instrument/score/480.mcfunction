@@ -1,0 +1,2 @@
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"minecraft:type_specific/player":{input:{sprint:true}}}} if entity @s[tag=yrh013.item.moon_sword.full_moon] run function yrh.013:item/instrument/to_yogetsu
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{"minecraft:type_specific/player":{input:{sprint:true}}}} if entity @s[tag=yrh013.item.moon_sword.new_moon] run function yrh.013:item/instrument/to_ingetsu

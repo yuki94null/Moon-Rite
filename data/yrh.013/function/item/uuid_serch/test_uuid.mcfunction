@@ -2,11 +2,10 @@
 
 ## 居たらタグつけ
 
-$execute if entity @n[nbt={UUID:$(UUID)}] run tag @n[nbt={UUID:$(UUID)}] add yrh013.uuid.selected
-
+$execute as @n[distance=..20,nbt={UUID:$(UUID)}] unless score @s yrh013.is_target matches 1.. run tag @s add yrh013.uuid.selected
 ## function実行
 
-$execute if entity @n[tag=yrh013.uuid.selected] run function $(path)
+$execute if entity @n[tag=yrh013.uuid.selected] run function $(path) with entity @n[tag=yrh013.uuid.selected]
 
 ## 居なかったらデータ消す
 

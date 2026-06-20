@@ -3,7 +3,7 @@
 ## タグ
 
 tag @e[tag=yrh013.function.looking_entity] remove yrh013.function.looking_entity
-tag @s add yrh013.function.exception
+tag @s add yrh013.function.looking_entity.exception
 
 ## ループ回数
 
@@ -13,4 +13,4 @@ scoreboard players set $tmp yrh013.global 40
 
 function yrh.013:function/looking_entity/loop
 
-tag @s remove yrh013.function.exception
+tag @e remove yrh013.function.looking_entity.exception

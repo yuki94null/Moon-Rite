@@ -8,11 +8,7 @@ execute unless block ~ ~ ~ #air run return fail
 
 ### タグ付ける
 
-execute positioned ~0.125 ~0.125 ~0.125 positioned ~-1.0 ~-1.0 ~-1.0 as @n[tag=!yrh013.function.exception,dx=0,dy=0,dz=0] positioned ~0.75 ~0.75 ~0.75 if entity @s[dx=0,dy=0,dz=0] run tag @s add yrh013.function.looking_entity
-
-### 検出したら終わる
-
-# execute if entity @e[tag=yrh013.function.looking_entity] run return fail
+execute positioned ~0.125 ~0.125 ~0.125 positioned ~-1.0 ~-1.0 ~-1.0 as @n[tag=!yrh013.function.looking_entity.exception,nbt={Brain:{}},dx=0,dy=0,dz=0] positioned ~0.75 ~0.75 ~0.75 if entity @s[dx=0,dy=0,dz=0] run tag @s add yrh013.function.looking_entity
 
 ## カウント
 

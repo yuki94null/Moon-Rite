@@ -1,2 +1,0 @@
-$execute positioned ^ ^ ^$(distance) run particle end_rod
-$execute positioned ^ ^ ^$(distance) positioned ~0.125 ~0.125 ~0.125 positioned ~-1.0 ~-1.0 ~-1.0 as @n[dx=0.0,dy=0.0,dz=0.0] positioned ~0.75 ~0.75 ~0.75 if entity @s[dx=0.0,dy=0.0,dz=0.0] run effect give @s glowing 1 0 true
